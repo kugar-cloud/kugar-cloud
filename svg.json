@@ -131,7 +131,7 @@
     "category": "general",
     "title": "List",
     "style":
-      "swimlane;font"style"=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;",
+      "swimlane;fontstyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;",
   },
   "listItem": {
     "category": "general",
@@ -181,8 +181,7 @@
     "style":
       "endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;",
   },
-
-  // AWS / Analytics
+    
   "mxgraph.aws4.athena": {
     "category": "mxgraph.aws4.analytics",
     "style":
@@ -233,8 +232,7 @@
     "style":
       "sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;font"style"=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;",
   },
-
-  // AWS / Compute
+    
   "mxgraph.aws4.compute": {
     "category": "mxgraph.aws4.compute",
     "style":
@@ -250,8 +248,7 @@
     "style":
       "sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;font"style"=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;",
   },
-
-  // AWS / Containers
+    
   "mxgraph.aws4.containers": {
     "category": "mxgraph.aws4.containers",
     "style":
@@ -277,8 +274,7 @@
     "style":
       "sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;font"style"=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;",
   },
-
-  // AWS / Network & Content Delivery
+    
   "mxgraph.aws4.api_gateway": {
     "category": "mxgraph.aws4.network",
     "style":
@@ -329,8 +325,7 @@
     "style":
       "sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;font"style"=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;",
   },
-
-  // AWS / Application Integration
+    
   "mxgraph.aws4.sns": {
     "category": "mxgraph.aws4.application_integration",
     "style":
@@ -351,8 +346,7 @@
     "style":
       "sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;font"style"=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_workflows_for_apache_airflow;",
   },
-
-  // AWS / Database
+    
   "mxgraph.aws4.database": {
     "category": "mxgraph.aws4.database",
     "style":
