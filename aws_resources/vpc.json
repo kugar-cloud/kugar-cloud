@@ -1,0 +1,13 @@
+{
+  "vpcs": [
+    {
+      "id": "vpc-049f6c0a4993d2bb1",
+      "cidr": "10.0.0.0/16",
+      "is_default": false,
+      "tags": {
+        "Name": "vpc-an2-cnl",
+        "kubernetes.io/role/internal-elb": "1"
+      }
+    }
+  ]
+}

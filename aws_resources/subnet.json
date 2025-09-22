@@ -1,0 +1,72 @@
+{
+  "subnets": [
+    {
+      "id": "subnet-09b4e863ea9cae5d9",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "cidr": "10.0.6.0/24",
+      "az": "ap-northeast-2a",
+      "public": false,
+      "tags": {
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox": "shared",
+        "kubernetes.io/cluster/eks-otel-cluster": "shared",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox-dev": "shared",
+        "kubernetes.io/role/internal-elb": "1",
+        "Name": "subnet-an2-private-a"
+      }
+    },
+    {
+      "id": "subnet-0975cd14d8e101b96",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "cidr": "10.0.0.0/24",
+      "az": "ap-northeast-2c",
+      "public": true,
+      "tags": {
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox": "shared",
+        "kubernetes.io/cluster/eks-owl-cluster": "owned",
+        "kubernetes.io/role/elb": "1",
+        "Name": "subnet-an2-public-c",
+        "kubernetes.io/cluster/eks-otel-cluster": "shared",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox.ap-northeast-2.eksctl.io": "shared",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox-dev": "shared",
+        "kubernetes.io/cluster/eks-cluster-kugar": "owned",
+        "kubernetes.io/role/internal-elb": "1",
+        "kubernetes.io/cluster/eks-auto-cluster-kugar": "owned",
+        "kubernetes.io/cluster/eks-cluster-somi": "owned"
+      }
+    },
+    {
+      "id": "subnet-0e456a1e14828101e",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "cidr": "10.0.5.0/24",
+      "az": "ap-northeast-2c",
+      "public": false,
+      "tags": {
+        "Name": "subnet-an2-private-c",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox-dev": "shared",
+        "kubernetes.io/role/internal-elb": "1",
+        "kubernetes.io/cluster/eks-otel-cluster": "shared",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox": "shared"
+      }
+    },
+    {
+      "id": "subnet-09053ee0c93be7f89",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "cidr": "10.0.1.0/24",
+      "az": "ap-northeast-2a",
+      "public": false,
+      "tags": {
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox": "shared",
+        "kubernetes.io/cluster/eks-owl-cluster": "owned",
+        "kubernetes.io/role/elb": "1",
+        "kubernetes.io/cluster/eks-cluster-somi": "owned",
+        "Name": "subnet-an2-public-a",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox.ap-northeast-2.eksctl.io": "shared",
+        "kubernetes.io/cluster/eks-otel-cluster": "shared",
+        "kubernetes.io/cluster/eks-an2-cnl-birdbox-dev": "shared",
+        "kubernetes.io/cluster/eks-cluster-kugar": "owned",
+        "kubernetes.io/role/internal-elb": "1",
+        "kubernetes.io/cluster/eks-auto-cluster-kugar": "owned"
+      }
+    }
+  ]
+}

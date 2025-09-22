@@ -1,0 +1,684 @@
+{
+  "instances": [
+    {
+      "id": "i-09ec5c841f3573c8f",
+      "type": "t2.micro",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.73",
+      "public_ip": "13.209.100.175",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-nat"
+      }
+    },
+    {
+      "id": "i-0552733643172e2b4",
+      "type": "t2.micro",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.233",
+      "public_ip": "15.165.100.230",
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-bastion"
+      }
+    },
+    {
+      "id": "i-0b797ed5a06c96504",
+      "type": "t3.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.90",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-cuckoo-backend"
+      }
+    },
+    {
+      "id": "i-03583c89ea425bd6e",
+      "type": "t2.micro",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.207",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-prometheus-grafana-test-vm"
+      }
+    },
+    {
+      "id": "i-0e0d8d40fff94eab0",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.242",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-app-lena-vm"
+      }
+    },
+    {
+      "id": "i-06ccdaf16acdc278f",
+      "type": "t3.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.248",
+      "public_ip": "3.36.200.83",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-jenkins"
+      }
+    },
+    {
+      "id": "i-0447dd726b26b1531",
+      "type": "t3.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.164",
+      "public_ip": "15.164.0.19",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-gitlab"
+      }
+    },
+    {
+      "id": "i-0f78c16862dc3fe85",
+      "type": "t2.micro",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.176",
+      "public_ip": "3.38.0.39",
+      "az": "ap-northeast-2c",
+      "tags": {
+        "CMS": "TBD",
+        "Name": "ec2-an2-cnl-owl-bastion"
+      }
+    },
+    {
+      "id": "i-04cd755feb95dd102",
+      "type": "t2.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.239",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-app"
+      }
+    },
+    {
+      "id": "i-00bed4e6835c86e9a",
+      "type": "t2.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.220",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-elasticsearch-handson"
+      }
+    },
+    {
+      "id": "i-0383109e6fa2b253b",
+      "type": "t2.xlarge",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.66",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-eks-anywhere"
+      }
+    },
+    {
+      "id": "i-0253639484be40e9e",
+      "type": "t3.micro",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.80",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Enviroment": "TBD",
+        "Name": "ec2-an2-cnl-cors-anywhere"
+      }
+    },
+    {
+      "id": "i-0507099c369347e99",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.4",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-prometheus_old"
+      }
+    },
+    {
+      "id": "i-04b25afce8f133d4c",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.108",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-loki_old"
+      }
+    },
+    {
+      "id": "i-0ad7239b68e40a7ce",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.9",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-elasticsearch"
+      }
+    },
+    {
+      "id": "i-0b4f632ed3ea4deaf",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.211",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-logstash"
+      }
+    },
+    {
+      "id": "i-0ad9b118b958d1f64",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.134",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-kibana"
+      }
+    },
+    {
+      "id": "i-0262826a2c234a9fe",
+      "type": "t2.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.139",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-pinpoint"
+      }
+    },
+    {
+      "id": "i-0fecd957e772eb601",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.83",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-gitlab-runner"
+      }
+    },
+    {
+      "id": "i-0b9c36a14adb53d6d",
+      "type": "t2.micro",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.82",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "opsworks-stack-an2-default - layer-an2-cnl-mgmt1"
+      }
+    },
+    {
+      "id": "i-0175fe7c22d0f7dab",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.72",
+      "public_ip": "43.200.0.58",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-kubectl-kugar"
+      }
+    },
+    {
+      "id": "i-06e09de555b12b0de",
+      "type": "t3.large",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.137",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-otel-vm"
+      }
+    },
+    {
+      "id": "i-024434f59acd7437a",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.64",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "gyuri-test-tel-grafana-2"
+      }
+    },
+    {
+      "id": "i-0e36f2ebce33c42a9",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.41",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-hyewon-test-vm"
+      }
+    },
+    {
+      "id": "i-0aae1f4393c252429",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.81",
+      "public_ip": "13.209.0.210",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-grafana"
+      }
+    },
+    {
+      "id": "i-09f56864645beb916",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.132",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-loki"
+      }
+    },
+    {
+      "id": "i-00a360f29f8e561ef",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.28",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-prometheus"
+      }
+    },
+    {
+      "id": "i-0f86dad1aed1b4050",
+      "type": "t3.large",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.204",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-oxp-plg-stack"
+      }
+    },
+    {
+      "id": "i-0ae8232c7eaf31afd",
+      "type": "t3.small",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.184",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-oxp-app"
+      }
+    },
+    {
+      "id": "i-01f6ee5e2fce8fc2b",
+      "type": "t2.micro",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.165",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-owl-tempo"
+      }
+    },
+    {
+      "id": "i-00a21fcd88ee29640",
+      "type": "t2.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.58",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-telme-yubin-prometheus"
+      }
+    },
+    {
+      "id": "i-08850d1572b8fafd6",
+      "type": "t3.small",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.54",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-ansible"
+      }
+    },
+    {
+      "id": "i-07a710c22e3a697aa",
+      "type": "t3.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.192",
+      "public_ip": "43.203.200.214",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-eks-bastion-somi"
+      }
+    },
+    {
+      "id": "i-018ab00719e0f2c46",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.57",
+      "public_ip": "3.36.75.134",
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "bedrock-test-syjoo"
+      }
+    },
+    {
+      "id": "i-07dca7519f0a7f6dc",
+      "type": "g4dn.xlarge",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.142",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-cnl-dcgm-exporter-02"
+      }
+    },
+    {
+      "id": "i-07844907410746658",
+      "type": "g4dn.xlarge",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.172",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-cnl-nvidia-smi-exporter-02"
+      }
+    },
+    {
+      "id": "i-0b37b4a517fcb673d",
+      "type": "t3.xlarge",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.47",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Production": "TBD",
+        "aws:ec2launchtemplate:id": "lt-05d78d8448ea94051",
+        "k8s.io/cluster-autoscaler/eks-cluster-kugar": "owned",
+        "aws:autoscaling:groupName": "eks-eks-ng-kugar-62c9685b-a1a1-880b-cc83-33dce810c268",
+        "eks:cluster-name": "eks-cluster-kugar",
+        "k8s.io/cluster-autoscaler/enabled": "true",
+        "CMS": "TBD",
+        "aws:ec2launchtemplate:version": "1",
+        "kubernetes.io/cluster/eks-cluster-kugar": "owned",
+        "eks:nodegroup-name": "eks-ng-kugar",
+        "aws:eks:cluster-name": "eks-cluster-kugar",
+        "Billing": "TBD",
+        "Reserved": "TBD",
+        "aws:ec2:fleet-id": "fleet-73b71d2c-6704-e634-aeba-8f8267f495bc",
+        "Enviroment": "TBD"
+      }
+    },
+    {
+      "id": "i-0a2d1b8f2a2a23e91",
+      "type": "t3a.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0e456a1e14828101e",
+      "private_ip": "10.0.5.80",
+      "public_ip": null,
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Enviroment": "TBD",
+        "eks:nodegroup-name": "owl-nodegroup",
+        "kubernetes.io/cluster/eks-owl-cluster": "owned",
+        "CMS": "TBD",
+        "aws:eks:cluster-name": "eks-owl-cluster",
+        "k8s.io/cluster-autoscaler/enabled": "true",
+        "aws:ec2launchtemplate:id": "lt-0c86f12758cef553e",
+        "aws:autoscaling:groupName": "eks-owl-nodegroup-30c49a1b-c7a7-2d7f-e8e2-1e5ecab883a3",
+        "Reserved": "TBD",
+        "eks:cluster-name": "eks-owl-cluster",
+        "aws:ec2launchtemplate:version": "5",
+        "Production": "TBD",
+        "Billing": "TBD",
+        "aws:ec2:fleet-id": "fleet-f91597a6-4d8c-4e1c-863a-2fa278b0f2b6",
+        "k8s.io/cluster-autoscaler/eks-owl-cluster": "owned"
+      }
+    },
+    {
+      "id": "i-0236bdafa7d5b298f",
+      "type": "t2.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.10",
+      "public_ip": "15.165.100.120",
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-aigos-app"
+      }
+    },
+    {
+      "id": "i-0c169dac2d6245ff8",
+      "type": "t3.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.32",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-n8n-test-yeongun"
+      }
+    },
+    {
+      "id": "i-02541c326b279da9d",
+      "type": "g4dn.xlarge",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.240",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-cnl-dcgm-exporter-01"
+      }
+    },
+    {
+      "id": "i-04f53201a0ecb8353",
+      "type": "t3.micro",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.152",
+      "public_ip": "3.36.100.158",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-kaci-cors-proxy"
+      }
+    },
+    {
+      "id": "i-0a64fb3e9838d3daa",
+      "type": "g4dn.xlarge",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.214",
+      "public_ip": null,
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-cnl-nvidia-smi-exporter-01"
+      }
+    },
+    {
+      "id": "i-04cec198d556fad08",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.47",
+      "public_ip": "43.202.0.98",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-dev-alertops"
+      }
+    },
+    {
+      "id": "i-05fcdecc0f2f83ead",
+      "type": "t3.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.50",
+      "public_ip": "52.79.200.69",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-cnl-n8n"
+      }
+    },
+    {
+      "id": "i-0e23c711ee4da384e",
+      "type": "t3.micro",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.207",
+      "public_ip": "43.201.200.71",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-tfe-test"
+      }
+    },
+    {
+      "id": "i-0e13b1bb417d9662e",
+      "type": "t3.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.126",
+      "public_ip": "3.36.0.27",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-aigos-gitlab"
+      }
+    },
+    {
+      "id": "i-0a106ac4bfe7d158b",
+      "type": "c5.large",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09b4e863ea9cae5d9",
+      "private_ip": "10.0.6.156",
+      "public_ip": "54.180.200.87",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-aws-mcp-server-seongminp"
+      }
+    },
+    {
+      "id": "i-04f9b9006077c1310",
+      "type": "t2.medium",
+      "state": "stopped",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-09053ee0c93be7f89",
+      "private_ip": "10.0.1.210",
+      "public_ip": "13.125.100.131",
+      "az": "ap-northeast-2a",
+      "tags": {
+        "Name": "ec2-an2-cnl-aigos-testappforvm"
+      }
+    },
+    {
+      "id": "i-0c701b981a715b13e",
+      "type": "t2.medium",
+      "state": "running",
+      "vpc_id": "vpc-049f6c0a4993d2bb1",
+      "subnet_id": "subnet-0975cd14d8e101b96",
+      "private_ip": "10.0.0.62",
+      "public_ip": "3.37.200.14",
+      "az": "ap-northeast-2c",
+      "tags": {
+        "Name": "ec2-an2-cnl-aigos-testapp"
+      }
+    }
+  ]
+}
